@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/hange/AndroidStudioProjects/MarketAssistant -type f \\\\\\(-name *.kt -o -name *.java \\\\\\))",
+      "Bash(ls /usr)",
+      "Bash(ls /tmp)",
+      "Read(//proc/1/**)",
+      "Bash(find /c/Users/hange/AndroidStudioProjects/MarketAssistant/app -name *.gradle -o -name *.tflite -o -name *.pb -o -name *.so -o -name *.c -o -name *.cpp -o -name *.h)",
+      "Bash(find /c/Users/hange/AndroidStudioProjects/MarketAssistant/app/build -name *.tflite -o -name *.pb -o -name AndroidManifest.xml)",
+      "Read(//tmp/**)",
+      "Bash(find /c/Users/hange/AndroidStudioProjects/MarketAssistant -name *.log)"
+    ]
+  }
+}

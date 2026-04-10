@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">市场辅助</string>
+    <string name="app_subtitle">智能水果新鲜度识别系统</string>
+
+    <!-- 主界面功能 -->
+    <string name="feature_freshness_detection">水果新鲜度检测</string>
+    <string name="feature_freshness_detection_desc">拍照或选择图片，智能识别水果新鲜程度</string>
+    <string name="feature_nearby_markets">附近新鲜商户</string>
+    <string name="feature_nearby_markets_desc">查看附近超市的新鲜度评分和用户评价</string>
+    <string name="feature_history">历史记录</string>
+    <string name="feature_history_desc">查看过往水果检测记录和详情</string>
+    <string name="feature_profile">个人中心</string>
+    <string name="feature_profile_desc">设置偏好、管理缓存和历史数据</string>
+
+    <!-- 新鲜度小贴士 -->
+    <string name="tips_title">新鲜度小贴士</string>
+    <string name="tip_1">1. 观察颜色：新鲜水果颜色鲜亮均匀，避免选择有褐色斑点的</string>
+    <string name="tip_2">2. 轻按手感：轻按水果表面，新鲜水果有一定弹性，过软表示过熟</string>
+    <string name="tip_3">3. 闻气味：新鲜水果有自然果香，如有发酵酸味则不新鲜</string>
+
+    <!-- 检测页面 -->
+    <string name="detection_placeholder">拍照或从相册选择水果图片</string>
+    <string name="btn_take_photo">拍照</string>
+    <string name="btn_pick_gallery">相册选择</string>
+    <string name="btn_start_detection">开始检测</string>
+    <string name="btn_capture">拍照检测</string>
+    <string name="btn_reselect">重新选择</string>
+    <string name="detection_analyzing">正在分析水果新鲜度...</string>
+    <string name="detection_opencv_analyzing">OpenCV识别中...</string>
+    <string name="detection_result_title">检测结果</string>
+    <string name="detection_powered_by_opencv">基于 OpenCV 图像分析</string>
+    <string name="progress_step_1">正在识别水果种类...</string>
+    <string name="progress_step_2">正在分析颜色与表面状态...</string>
+    <string name="progress_step_3">正在生成新鲜度评分...</string>
+
+    <string name="result_fruit_type">水果类型</string>
+    <string name="result_freshness_score">新鲜度评分</string>
+    <string name="result_freshness_level">新鲜度等级</string>
+    <string name="result_color_analysis">颜色分析</string>
+    <string name="result_suggestion">保存建议</string>
+
+    <string name="btn_retry_detection">重新检测</string>
+
+    <!-- 超市主界面 -->
+    <string name="nearby_markets">附近超市</string>
+    <string name="high_rating_badge">新鲜度高评分商户</string>
+    <string name="location_permission_required">需要定位权限才能使用此功能</string>
+    <string name="location_failed">定位失败</string>
+    <string name="loading_markets">正在加载附近超市...</string>
+
+    <!-- 超市信息 -->
+    <string name="market_open">营业中</string>
+    <string name="market_closed">已打烊</string>
+    <string name="rating_format">%.1f</string>
+    <string name="freshness_rating_format">新鲜度: %.1f</string>
+    <string name="review_count_format">%d条评价</string>
+    <string name="view_reviews">查看评价 &gt;</string>
+    <string name="distance_meter_format">%.0fm</string>
+    <string name="distance_km_format">%.1fkm</string>
+
+    <!-- 评价页面 -->
+    <string name="reviews_title">用户评价</string>
+    <string name="overall_rating_format">综合评分: %.1f | 新鲜度: %.1f</string>
+    <string name="no_reviews">暂无评价</string>
+
+    <!-- 按钮 -->
+    <string name="navigate">导航</string>
+    <string name="call">拨打电话</string>
+    <string name="share">分享</string>
+
+    <!-- 错误信息 -->
+    <string name="error_load_markets">加载超市信息失败</string>
+    <string name="error_network">网络连接失败</string>
+    <string name="error_map_init">地图初始化失败</string>
+    <string name="camera_unavailable">相机不可用</string>
+    <string name="camera_use_gallery">使用相册</string>
+
+    <!-- 历史记录页面 -->
+    <string name="history_title">检测历史</string>
+    <string name="history_empty">暂无检测记录\n请先进行水果新鲜度检测</string>
+    <string name="history_record_count">共%d条记录</string>
+    <string name="history_detail_title">检测详情</string>
+    <string name="history_detect_time">检测时间</string>
+    <string name="history_confirm_delete">确定要删除这条记录吗？</string>
+    <string name="history_confirm_clear">确定要清空所有历史记录吗？此操作不可恢复。</string>
+    <string name="history_cleared">历史记录已清空</string>
+    <string name="history_deleted">记录已删除</string>
+    <string name="btn_delete_record">删除此记录</string>
+    <string name="filter_all">全部水果</string>
+    <string name="sort_by_time">按时间排序</string>
+    <string name="sort_by_score">按分数排序</string>
+    <string name="action_clear_all">清空历史</string>
+    <string name="action_search">搜索</string>
+
+    <!-- 个人中心页面 -->
+    <string name="profile_title">个人中心</string>
+    <string name="profile_user_name">用户</string>
+    <string name="profile_record_count">已检测%d次</string>
+    <string name="profile_my_records">我的检测记录</string>
+    <string name="profile_favorite_markets">收藏商户</string>
+    <string name="profile_save_images">保存检测图片</string>
+    <string name="profile_dark_mode">深色模式</string>
+    <string name="profile_clear_cache">清除缓存</string>
+    <string name="profile_about">关于系统</string>
+    <string name="profile_feedback">意见反馈</string>
+    <string name="profile_version">版本 %s</string>
+    <string name="profile_about_content">市场辅助 v%s\n\n智能水果新鲜度识别系统\n基于OpenCV图像分析技术</string>
+    <string name="profile_feedback_hint">请输入您的意见和建议...</string>
+    <string name="profile_feedback_thanks">感谢您的反馈！</string>
+    <string name="profile_feature_developing">功能开发中...</string>
+    <string name="profile_cache_cleared">缓存已清除</string>
+
+    <!-- 通用 -->
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="submit">提交</string>
+    <string name="delete">删除</string>
+</resources>
